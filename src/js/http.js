@@ -1,7 +1,3 @@
-export function httpGet(url) {
-  throw new Error(url);
-}
-
-export function httpPost(url) {
+export default function fetchData(url) {
   throw new Error(url);
 }
